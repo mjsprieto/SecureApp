@@ -1,0 +1,41 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "es.mjsp.tfm",
+            "nativeLanguage": "en"
+        },
+        "jhipsterVersion": "5.7.2",
+        "applicationType": "monolith",
+        "baseName": "SecureApp",
+        "packageName": "es.mjsp.tfm",
+        "packageFolder": "es/mjsp/tfm",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "h2Memory",
+        "prodDatabaseType": "mariadb",
+        "searchEngine": "elasticsearch",
+        "messageBroker": false,
+        "serviceDiscoveryType": "eureka",
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "ZmIyMzBlNGZmY2VjNDE1MDM5NjQ3ODgzMTcwZjVkZTQ3OTNjZjU1ZTM0ZWNkM2E0YmIzYTMyM2Q2NGM3NGJhNzNiMTRhMjU0ODNmNjBiZGJjNzA0NjJmYmQ3ZGUyNWRhNTA1YmY3OTYxZGJlNTUzODA4YmNjZWM1NGZlYzE2MWQ=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": ["cucumber"],
+        "jhiPrefix": "jhi",
+        "otherModules": [
+            {
+                "name": "generator-jhipster-audit-helper",
+                "version": "1.0.3"
+            }
+        ],
+        "enableTranslation": true,
+        "nativeLanguage": "en",
+        "languages": ["en", "es"]
+    }
+}
